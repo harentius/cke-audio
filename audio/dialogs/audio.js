@@ -251,45 +251,6 @@ CKEDITOR.dialog.add( 'audio', function ( editor )
 
 					{
 						type : 'hbox',
-						widths: [ '', '100px', '75px'],
-						children : [
-							{
-								type : 'text',
-								id : 'src1',
-								label : lang.sourceAudio,
-								commit : commitSrc,
-								setup : loadSrc
-							},
-							{
-								type : 'button',
-								id : 'browse',
-								hidden : 'true',
-								style : 'display:inline-block;margin-top:10px;',
-								filebrowser :
-								{
-									action : 'Browse',
-									target: 'info:src1',
-									url: editor.config.filebrowserAudioBrowseUrl || editor.config.filebrowserBrowseUrl
-								},
-								label : editor.lang.common.browseServer
-							},
-							{
-								id : 'type1',
-								label : lang.sourceType,
-								type : 'select',
-								'default':'audio/wav',
-								items :
-								[
-									[ 'mp3', 'audio/mpeg' ],
-									[ 'wav', 'audio/wav' ]
-								],
-								commit : commitSrc,
-								setup : loadSrc
-							}]
-					},
-
-					{
-						type : 'hbox',
 						widths: ['', '', '80%'],
 						children : [
 							{
