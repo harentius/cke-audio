@@ -68,6 +68,7 @@ CKEDITOR.plugins.add( 'audio',
 			{
 				label : lang.toolbar,
 				command : 'Audio',
+				toolbar : 'insert',
 				icon : this.path + 'images/icon.png'
 			} );
 
