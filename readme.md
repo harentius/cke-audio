@@ -38,12 +38,12 @@ Originally forked from [https://github.com/Philalawst/cke_audio](https://github.
 
 ###List of improvements
 
-####by [aemr3](https://github.com/aemr3/cke_audio)
+#####by [aemr3](https://github.com/aemr3/cke_audio)
 - Added autoplay/loop/controls options
 - Changed default audio formats to mp3/wav
 - Removed div around audio tags. (Causes some trouble)
 
-####by [harentius](https://github.com/harentius/cke-audio-plugin)
+#####by [harentius](https://github.com/harentius/cke-audio-plugin)
 - Added plugin button to 'insert' group, stylized for Ckeditor 4
 - Removed redundant second upload field
 - Improved this readme
