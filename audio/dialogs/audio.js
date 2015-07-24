@@ -306,6 +306,7 @@ CKEDITOR.dialog.add( 'audio', function ( editor )
 					{ type : "file", id : "upload", style : "height:40px" },
 					{ type : "fileButton", id : "uploadButton", filebrowser : "info:src", label : lang.uploadTabTitle, for : ["Upload", "upload"] }
 				]
-		}]
+			}
+		]
 	};
 } );
