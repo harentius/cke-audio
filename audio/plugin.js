@@ -165,7 +165,9 @@ var en = {
 		sourceAudio: 'Source audio',
 		sourceType : 'Audio type',
 		linkTemplate :  '<a href="%src%">%type%</a> ',
-		fallbackTemplate : 'Your browser doesn\'t support audio.<br>Please download the file: %links%'
+		fallbackTemplate : 'Your browser doesn\'t support audio.<br>Please download the file: %links%',
+		mainTabTitle: 'Insert',
+		uploadTabTitle : 'Upload'
 	};
 
 var fr = {
@@ -176,7 +178,9 @@ var fr = {
 		sourceAudio: 'Source du son',
 		sourceType : 'Type',
 		linkTemplate :  '<a href="%src%">%type%</a> ',
-		fallbackTemplate : 'Votre navigateur ne supporte pas la balise audio.<br>Merci, de télécharger le fichier: %links%'
+		fallbackTemplate : 'Votre navigateur ne supporte pas la balise audio.<br>Merci, de télécharger le fichier: %links%',
+		mainTabTitle: 'Insérer',
+		uploadTabTitle : 'Télécharger'
 	};
 
 	// v3
