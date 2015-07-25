@@ -1,0 +1,16 @@
+{
+  "name": "cke-audio-plugin",
+  "version": "1.0.0",
+  "homepage": "https://github.com/harentius/cke_audio",
+  "authors": [
+    "Philalawst<https://github.com/Philalawst>",
+    "Emre<https://github.com/aemr3>",
+    "Yaroslav Osypenko <yaroslav.osypenko@gmail.com>"
+  ],
+  "description": "Ckeditor plugin for easy adding html5 audio.",
+  "keywords": [
+    "ckeditor",
+    "plugin",
+    "audio"
+  ]
+}
