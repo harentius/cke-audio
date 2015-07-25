@@ -12,5 +12,9 @@
     "ckeditor",
     "plugin",
     "audio"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/harentius/ckeditor-audio-plugin.git"
+  }
 }
