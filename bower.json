@@ -1,7 +1,7 @@
 {
   "name": "cke-audio-plugin",
   "version": "1.0.0",
-  "homepage": "https://github.com/harentius/cke_audio",
+  "homepage": "https://github.com/harentius/ckeditor-audio-plugin",
   "authors": [
     "Philalawst<https://github.com/Philalawst>",
     "Emre<https://github.com/aemr3>",
