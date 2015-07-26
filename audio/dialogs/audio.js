@@ -303,8 +303,18 @@ CKEDITOR.dialog.add( 'audio', function ( editor )
 				filebrowser : "uploadButton",
 				label : lang.uploadTabTitle,
 				elements: [
-					{ type : "file", id : "upload", style : "height:40px" },
-					{ type : "fileButton", id : "uploadButton", filebrowser : "info:src", label : lang.uploadTabTitle, for : ["Upload", "upload"] }
+					{
+						type : "file",
+						id : "upload",
+						style : "height:40px"
+					},
+					{
+						type : "fileButton",
+						id : "uploadButton",
+						filebrowser : "info:src0",
+						label : lang.uploadTabTitle,
+						for : ["Upload", "upload"]
+					}
 				]
 			}
 		]
