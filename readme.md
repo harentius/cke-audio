@@ -18,6 +18,15 @@ composer require bower-asset/ckeditor-audio-plugin
 ### 2. Configure Ckeditor
 
 	CKEDITOR.plugins.addExternal("audio", "assets/vendor/ckeditor-audio-plugin/audio/plugin.js");
+	
+Optional:
+You can use default browser for browsing server files
+
+	filebrowserBrowseUrl: "/browse/all",
+
+or custom
+
+	filebrowserAudioBrowseUrl: "/browse/audio"
 
 (or other installation path)
 
