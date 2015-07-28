@@ -12,8 +12,6 @@ Using [composer asset plugin](https://github.com/francoispluchino/composer-asset
 
 	composer require bower-asset/ckeditor-audio-plugin
 
-composer require bower-asset/ckeditor-audio-plugin
-
 
 ### 2. Configure Ckeditor
 
@@ -22,7 +20,7 @@ composer require bower-asset/ckeditor-audio-plugin
 Optional:
 You can use default browser for browsing server files
 
-	filebrowserBrowseUrl: "/browse/all",
+	filebrowserBrowseUrl: "{{ admin.generateUrl('browse', {'type': 'image'}) }}"
 
 or custom
 
