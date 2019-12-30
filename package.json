@@ -1,0 +1,24 @@
+{
+  "name": "ckeditor-audio-plugin",
+  "version": "1.0.0",
+  "description": "add audio files",
+  "main": "audio/plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harentius/ckeditor-audio-plugin.git"
+  },
+  "keywords": [
+    "ckeditor",
+    "audio",
+    "plugin"
+  ],
+  "author": "Philalawst <https://github.com/Philalawst>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harentius/ckeditor-audio-plugin/issues"
+  },
+  "homepage": "https://github.com/harentius/ckeditor-audio-plugin#readme"
+}

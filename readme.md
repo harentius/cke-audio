@@ -3,14 +3,14 @@
 ## Installation
 ### 1. Copy plugin to your project in any convenient way
 
-Using [Bower](http://bower.io/):
+Using [Npm](https://www.npmjs.com/):
 
-	bower install ckeditor-audio-plugin
+	npm install ckeditor-audio-plugin
 
 
 Using [composer asset plugin](https://github.com/francoispluchino/composer-asset-plugin):
 
-	composer require bower-asset/ckeditor-audio-plugin
+	composer require npm-asset/ckeditor-audio-plugin
 
 
 ### 2. Configure Ckeditor
